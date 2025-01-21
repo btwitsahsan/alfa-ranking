@@ -1,0 +1,72 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "title": "Web Development",
+        "slug": "web-development",
+        "description": "Building fast, secure, and responsive websites tailored to your needs.",
+        "isFeatured": true
+      },
+      {
+        "id": 2,
+        "title": "Graphic Design",
+        "slug": "graphic-design",
+        "description": "Creative designs that enhance your brand’s visual identity.",
+        "isFeatured": true
+      },
+      {
+        "id": 3,
+        "title": "SEO Services",
+        "slug": "seo-services",
+        "description": "Optimizing your online presence to rank higher and drive traffic.",
+        "isFeatured": true
+      },
+      {
+        "id": 4,
+        "title": "Digital Marketing",
+        "slug": "digital-marketing",
+        "description": "Boosting your reach and engagement with data-driven marketing strategies.",
+        "isFeatured": true
+      },
+      {
+        "id": 5,
+        "title": "E-commerce Solutions",
+        "slug": "ecommerce-solutions",
+        "description": "Customized e-commerce platforms to drive online sales effectively.",
+        "isFeatured": false
+      },
+      {
+        "id": 6,
+        "title": "Social Media Marketing",
+        "slug": "social-media-marketing",
+        "description": "Building a strong presence across all major social media platforms.",
+        "isFeatured": true
+      },
+      {
+        "id": 7,
+        "title": "Content Creation",
+        "slug": "content-creation",
+        "description": "Crafting engaging content to communicate your brand’s message.",
+        "isFeatured": false
+      },
+      {
+        "id": 8,
+        "title": "UI/UX Design",
+        "slug": "ui-ux-design",
+        "description": "Creating intuitive and user-friendly designs for an optimal user experience.",
+        "isFeatured": true
+      },
+      {
+        "id": 9,
+        "title": "Brand Strategy",
+        "slug": "brand-strategy",
+        "description": "Developing comprehensive strategies to position your brand for success.",
+        "isFeatured": false
+      }
+    ]
+    
+  }
+  
+
+
+

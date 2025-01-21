@@ -1,0 +1,63 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.BTN {
+  font-family: "Kumbh Sans", sans-serif;
+  display: inline-block;
+  position: relative;
+  font-size: 16px !important;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: center;
+  overflow: hidden;
+  border: none;
+  z-index: 1;
+  border-radius: 12px !important;
+  transition: all ease 350ms;
+  -moz-transition: all ease 350ms;
+  -webkit-transition: all ease 350ms;
+}
+.BTN::after {
+  content: "";
+  position: absolute;
+  height: 0%;
+  left: 50%;
+  top: 50%;
+  width: 150%;
+  z-index: -1;
+  -webkit-transition: all 0.75s ease 0s;
+  -moz-transition: all 0.75s ease 0s;
+  -o-transition: all 0.75s ease 0s;
+  transition: all 0.75s ease 0s;
+}
+
+.BTN:hover::after {
+  height: 450%;
+}
+.BTN::after {
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+  transform: translateX(-50%) translateY(-50%) rotate(25deg);
+}
