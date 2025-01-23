@@ -8,7 +8,7 @@ export default function contactPage(){
                 Get in Touch
               </h1>
               <p className="mt-4 text-lg text-gray-300">
-                Have a question or want to work with us? We'd love to hear from you!
+                Have a question or want to work with us? We&apos;d love to hear from you!
               </p>
             </div>
     
@@ -87,7 +87,7 @@ export default function contactPage(){
                   Contact Details
                 </h2>
                 <p className="text-gray-300">
-                  If you'd prefer to reach out directly, here's how you can contact
+                  If you&apos;d prefer to reach out directly, here&apos;s how you can contact
                   us:
                 </p>
                 <div>

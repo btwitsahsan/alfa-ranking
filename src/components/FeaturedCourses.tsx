@@ -4,19 +4,18 @@ import React from "react";
 import servicesData from "../data/services.json";
 import { BackgroundGradient } from "./ui/background-gradient";
 
-// interface Course{
-//     id: number,
-//     title: string,
-//     slug: string,
-//     description: string,
-//     price: number,
-//     instructor: string,
-//     isFeatured: string,
-//     image: boolean,
-// }
+
+interface Service {
+  id: number;
+  title: string;
+  description: string;
+  slug: string;
+  isFeatured: boolean;
+}
+
 const FeaturedCourses = () => {
   const featuredServices = servicesData.services.filter(
-    (service: any) => service.isFeatured
+    (service: Service) => service.isFeatured
   );
   return (
     <div className="py-12 bg-gray-900">
@@ -32,7 +31,7 @@ const FeaturedCourses = () => {
       </div>
       <div className="mt-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
-          {featuredServices.map((service: any) => (
+          {featuredServices.map((service: Service) => (
             <div className="flex justify-center" key={service.id}>
               <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 text-center">
                 {/* <Image

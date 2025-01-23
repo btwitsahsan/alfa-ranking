@@ -9,7 +9,7 @@ export default function seoPage(){
             SEO Services
           </h1>
           <p className="text-lg">
-            Boost your website's visibility and drive more traffic with our expert SEO services.
+            Boost your website&apos;s visibility and drive more traffic with our expert SEO services.
           </p>
         </div>
       </header>
@@ -67,7 +67,7 @@ export default function seoPage(){
                 On-Page Optimization
               </h3>
               <p className="text-white">
-                Enhance your website's structure and content to improve search engine rankings.
+                Enhance your website&apos;s structure and content to improve search engine rankings.
               </p>
             </li>
             <li className="shadow-lg rounded-lg p-6 bg-gray-900">
@@ -91,7 +91,7 @@ export default function seoPage(){
                 Technical SEO
               </h3>
               <p className="text-white">
-                Improve your website's technical aspects, including speed, mobile-friendliness, and crawlability.
+                Improve your website&apos;s technical aspects, including speed, mobile-friendliness, and crawlability.
               </p>
             </li>
             <li className="shadow-lg rounded-lg p-6 bg-gray-900">

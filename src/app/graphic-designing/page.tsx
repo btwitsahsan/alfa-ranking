@@ -26,7 +26,7 @@ export default function graphicPage(){
           Unique Designs
         </h3>
         <p className="text-white">
-          We craft designs that stand out, capturing your brand's essence and
+          We craft designs that stand out, capturing your brand&apos;s essence and
           creating a lasting impression.
         </p>
       </div>
@@ -109,7 +109,7 @@ export default function graphicPage(){
           </h3>
           <p className="text-white">
             Design attractive and functional packaging that enhances your
-            product's appeal.
+            product&apos;s appeal.
           </p>
         </li>
       </ul>
@@ -120,7 +120,7 @@ export default function graphicPage(){
   <section className="bg-gray-900 text-white py-12">
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <h2 className="text-2xl font-bold mb-4">
-        Ready to Transform Your Brand's Visual Identity?
+        Ready to Transform Your Brand&apos;s Visual Identity?
       </h2>
       <p className="mb-6">
         Contact us today to discuss your graphic design needs and take your
