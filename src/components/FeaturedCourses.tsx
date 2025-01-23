@@ -4,16 +4,16 @@ import React from "react";
 import servicesData from "../data/services.json";
 import { BackgroundGradient } from "./ui/background-gradient";
 
-interface Course{
-    id: number,
-    title: string,
-    slug: string,
-    description: string,
-    price: number,
-    instructor: string,
-    isFeatured: string,
-    image: boolean,
-}
+// interface Course{
+//     id: number,
+//     title: string,
+//     slug: string,
+//     description: string,
+//     price: number,
+//     instructor: string,
+//     isFeatured: string,
+//     image: boolean,
+// }
 const FeaturedCourses = () => {
   const featuredServices = servicesData.services.filter(
     (service: any) => service.isFeatured
