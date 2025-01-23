@@ -3,7 +3,7 @@ export default function graphicPage(){
         <>
         <div className="">
   {/* Header Section */}
-  <header className="bg-gray-900 py-32">
+  <header className="bg-gray-900 h-[80vh] flex items-center justify-center">
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <h1 className="text-4xl font-bold mb-4 text-teal-600">
         Graphic Design Services

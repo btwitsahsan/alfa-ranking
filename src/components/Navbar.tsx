@@ -26,7 +26,7 @@ const Navbar = ({ className }: { className?: string }) => {
             <HoveredLink href="/digital-marketing">Digital Marketing</HoveredLink>
           </div>
         </MenuItem>
-        <Link href={"#aboutUs"}>
+        <Link href={"/aboutUs"}>
           <MenuItem
             setActive={setActive}
             active={active}
